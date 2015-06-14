@@ -7,6 +7,9 @@
 - (void)initialize
 {
     // your code here
+    // variable = (varType*)[fileSomething load:@"name"];
+    character = (Character*)[CCBReader load:@"Character"];
+    [physicsNode addChild:character];   // add character as a child of physicsNode
 }
 
 -(void)update:(CCTime)delta
