@@ -10,6 +10,7 @@
     // variable = (varType*)[fileSomething load:@"name"];
     character = (Character*)[CCBReader load:@"Character"];
     [physicsNode addChild:character];   // add character as a child of physicsNode
+    [self addObstacle]; // add an obstacle
 }
 
 -(void)update:(CCTime)delta
