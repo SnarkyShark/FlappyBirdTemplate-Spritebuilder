@@ -21,6 +21,8 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     // varType* variable;
     Character*     character;
     CCPhysicsNode* physicsNode;
+    
+    float timeSinceObstacle;    // this should be ok, but the wording is different
 }
 
 -(void) initialize;
